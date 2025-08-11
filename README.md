@@ -14,3 +14,12 @@ Introduction to some of the main topics in cyber security.
 - And what is part of them? 
 
 Including beginner friendly challenges. 
+
+- [Blue Team](topics/blue_team.md)
+- [Red Team](topics/red_team.md)
+- [Deception](topics/deception.md)
+- [OSINT](topics/osint.md)
+- [Cryptography](topics/cryptography.md)
+- [Reverse Engineering](topics/reversing.md)
+- [Privacy](topics/privacy.md)
+- [Hardware Hacking](topics/hardware_hacking.md)
