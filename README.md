@@ -15,6 +15,8 @@ Introduction to some of the main topics in cyber security.
 
 Including beginner friendly challenges. 
 
+([The Basics](basics.md) - Helpful Fundamentals of Computer Science / Cyber Security)
+
 - [Blue Team](topics/blue_team.md)
 - [Red Team](topics/red_team.md)
 - [Deception](topics/deception.md)
