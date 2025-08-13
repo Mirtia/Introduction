@@ -22,7 +22,8 @@ Giving beginner friendly hardware challenges is difficult, since a lot require s
 First let's give you challenges where no additional tools are needed:
 1. Do basic 'Wardriving' with your phone ([Wigle](https://wigle.net/))
 2. Similarly use an app such as [Network Survey](https://f-droid.org/packages/com.craxiom.networksurvey/) to gather cellular, WiFi and Bluetooth data in your area.
-**Which Wi-Fi signals are near your house? Can you use only the Wi-Fi signals around you to figure out your location?**
+   - **Which Wi-Fi signals are near your house?**
+   - **Can you use only the Wi-Fi signals around you to figure out your location?**
 
 If you are willing to pay a little money you could experiment with:
 - Raspberry Pis
