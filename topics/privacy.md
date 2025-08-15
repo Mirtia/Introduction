@@ -3,7 +3,7 @@
 ## Overview / What is it?
 Think about sending a letter to a friend. You seal it in an envelope so that only they can read it — that’s privacy. Now imagine if the post office opened your letter first and decided whether it is allowed to be delivered — that’s censorship.
 
-Privacy is about your right to keep your personal life, information, and relationships to yourself. it is also about choosing when, how and with whom they are shared.
+Privacy is about your right to keep your personal life, information, and relationships to yourself. It is also about choosing when, how and with whom they are shared.
 Censorship, on the other hand, is when someone (like a government, company, or even a social media platform) is controlling or limiting the information and ideas you can access or express.
 
 ## Real World Applications & Relevance
