@@ -10,12 +10,12 @@ To Protect the "crown jewls" (the important stuff), blue teams focus on three as
 
 These are cyclic, i.e., each improves the others.
 Preventing, mitigating, and controlling **security incidents** are often the result of evaluating **risk levels**, i.e., to determine how valuable and vulnerable is an asset, and the consequences of something happening to it (e.g., data breach, exposure, denial of access, downtime, etc.).
-Once we know our risks, we can plan ahead and decide what to do: should we leave it be? do we need to focus on reducing the risk level? can it wait? is there a dependancy?
+Once we know our risks, we can plan ahead and decide what to do: Should we leave it be? Do we need to focus on reducing the risk level? Can it wait? is there a dependancy?
 
-But there is more! what if something happens despite all of our efforts?
-blue teams also **respond** to security incidents, actively trying to put the fire off (isolating systems and fixing what is broken on the go), and after the storm wears off with extensive **incident reports** to learn: i) what did just happen? ii) what did we do? and iii) how can prevent this from happening again?
+But there is more! What if something happens despite all of our efforts?
+Blue teams also **respond** to security incidents, actively trying to put the fire off (isolating systems and fixing what is broken on the go), and after the storm wears off with extensive **incident reports** to learn: i) What did just happen? ii) What did we do? and iii) How can prevent this from happening again?
 
-The rabbit hole in how blue teams operate is deep, from collecting **OSINT**, to **analyzing network events** and running **forensics**, and if you are curious, you should give a read to some of the following sources:
+The rabbit hole in how blue teams operate is deep, from collecting **[OSINT](osint.md)**, to **analyzing network events** and running **forensics**, and if you are curious, you should give a read to some of the following sources:
 - How Cybersecurity Really Works (ISBN13: 9781718501287)
 - Cybersecurity Blue Team Toolkit (ISBN13: 9781119552932)
 
@@ -51,4 +51,4 @@ Your mission on this challenge is to fix the configuration of the SSH service th
 
 - [config file](https://github.com/DTU-Hacker-Lab/Introduction/resources/blue_team-ssh)
 
-(you can test your configuration using a Docker container with SSH)
+(You can test your configuration using a Docker container with SSH)
