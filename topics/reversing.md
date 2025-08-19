@@ -38,9 +38,33 @@ Some of the main applications include:
 
 - **AI and Reverse Engineering**: OpenAI and Microsoft [uncovered evidence](https://www.theverge.com/news/601195/openai-evidence-deepseek-distillation-ai-data) suggesting that Chinese AI startup DeepSeek may have used knowledge distillation to train its language model by querying OpenAI’s models and learning from their outputs, effectively reverse engineering their behavior.
 
-## Challenges
+## Challenge
 
-*NotImplementedError*
+If you are interested in trying out a reverse challenge, there is a simple **code-patching exercise** in [../resources/rev_hansapatch](../resources/rev_hansapatch).
+
+There is an ELF executable that can run on Linux systems.
+
+You will need one of the following tools:
+
+* [upx](https://github.com/upx/upx) - a well-known executable packer. It compresses or transforms executables and wraps them in a small loader stub that unpacks the code at runtime.
+* [Ghidra](https://ghidra-sre.org/) – for static analysis and decompilation. You can also use [Ida](https://hex-rays.com/ida-free).
+* `gdb` – for debugging.
+
+Some complementary tools you may find useful:
+
+* `nm` – list exported symbols.
+* `objdump -d` – disassemble functions and inspect call instructions.
+* `strings` – quickly check embedded text.
+
+
+1. Try loading the executable to your static analyzer (Ghidra or Ida). Do you notice anything out of the ordinary? Unpack the executable using `upx`.
+
+>Fun fact: Attackers often use packers to evade detection. By changing the binary’s structure and hiding its real code, a packed file may bypass signature-based detection and make reverse engineering harder.
+
+
+2. The goal is to redirect the program’s control flow so that it calls the hidden function which prints the FLAG.
+
+>Hint: Do not lose time trying to find a way to solve the challenge by bruteforcing the flag. The aim of the flag is to redirect your flow 🤓. 
 
 ## Further Reading
 
