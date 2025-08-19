@@ -64,7 +64,7 @@ Some complementary tools you may find useful:
 
 2. The goal is to redirect the program’s control flow so that it calls the hidden function which prints the FLAG.
 
->Hint: Do not lose time trying to find a way to solve the challenge by bruteforcing the flag. The aim of the flag is to redirect your flow 🤓. 
+>Hint: Do not lose time trying to find a way to solve the challenge by bruteforcing the flag. The aim of the challenge is to redirect your flow 🤓. 
 
 ## Further Reading
 
