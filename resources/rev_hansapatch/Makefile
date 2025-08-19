@@ -8,6 +8,10 @@ all: pie
 pie: exports.map
 	gcc -O2 -fPIE -pie -fno-asynchronous-unwind-tables -fno-plt \
 	    -Wl,--version-script=exports.map -o $(OUT) $(SRC)
+	objcopy --strip-all --keep-symbol=main \
+	                   --keep-symbol=definitely_the_wrong_function \
+	                   --keep-symbol=definitely_the_correct_function \
+	                   $(OUT)
 
 nopie:
 	gcc -O2 -no-pie -fno-asynchronous-unwind-tables -fno-plt -o $(OUT) $(SRC)
