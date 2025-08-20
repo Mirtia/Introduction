@@ -62,9 +62,9 @@ Some complementary tools you may find useful:
 >Fun fact: Attackers often use packers to evade detection. By changing the binary’s structure and hiding its real code, a packed file may bypass signature-based detection and make reverse engineering harder.
 
 
-2. The goal is to redirect the program’s control flow so that it calls the hidden function which prints the FLAG.
+2. The goal is to redirect the program’s control flow so that it calls the hidden function which prints the FLAG. 
 
->Hint: Do not lose time trying to find a way to solve the challenge by bruteforcing the flag. The aim of the challenge is to redirect your flow 🤓. 
+>Hint: Do not lose time trying to find a way to solve the challenge by bruteforcing the flag. The aim of the challenge is to redirect your flow 🤓. The value of the FLAG depends on a nonce and it is not guaranteed to be steady across execution. 
 
 ## Further Reading
 
