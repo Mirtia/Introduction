@@ -49,7 +49,8 @@ static uint32_t NOINLINE USED xor_op(uint32_t x) { return x ^ KEY; }
  * The goal is to call this function directly from gdb or patch the binary's
  * call to definitely_the_wrong_function with this function.
  */
-static int NOINLINE USED definitely_the_correct_function(uint32_t nonce) {
+__attribute__((visibility("default"))) int NOINLINE USED
+definitely_the_correct_function(uint32_t nonce) {
   // The revealed value is visible at runtime.
   // secret = xor_op(PUB ^ nonce)
   uint32_t secret = xor_op(PUB ^ nonce);
@@ -62,7 +63,8 @@ static int NOINLINE USED definitely_the_correct_function(uint32_t nonce) {
 /**
  * @brief Function to be patched.
  */
-static int NOINLINE USED definitely_the_wrong_function(uint32_t value) {
+__attribute__((visibility("default"))) int NOINLINE USED
+definitely_the_wrong_function(uint32_t value) {
   (void)value;
   printf("W o w, you're really good at following instructions.");
   return 1;
