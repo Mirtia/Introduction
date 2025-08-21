@@ -64,6 +64,7 @@ Some complementary tools you may find useful:
 2. Examine your executable.
 
 2.1. Use `file` to learn more information about your binary. What is a *PIE* executable? 
+
 2.2. The executable is stripped. That means that the static symbol table (.symtab) has been stripped out. But executables often still carry another kind of symbol table that the dynamic linker uses at runtime. Try exploring with `nm -D` to see what remains.
 
 3. The goal is to redirect the program’s control flow so that it calls the hidden function which prints the FLAG. 
