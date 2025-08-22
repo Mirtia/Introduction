@@ -30,7 +30,7 @@ Some of the main applications include:
 
 - **Software preservation**: Reverse engineering proprietary or abandoned software, file formats, or protocols so they can still be used or replaced with open alternatives.
 
-- **Studying obfuscation and protections**: Analyzing techniques like *code obfuscation* or [DRM](https://en.wikipedia.org/wiki/Digital_rights_management) to see how programs hide their logic, and how those protections might be bypassed.
+- **Studying obfuscation and protections**: Analyzing techniques like *code obfuscation* or [DRM](https://en.wikipedia.org/wiki/Digital_rights_management) to see how programs hide their true logic, and how those protections might be bypassed.
 
 ## Recent News & Trends
 
@@ -69,7 +69,7 @@ Some complementary tools you may find useful:
 
 3. The goal is to redirect the program’s control flow so that it calls the hidden function which prints the FLAG. 
 
->Hint: Do not lose time trying to find a way to solve the challenge by bruteforcing the flag. The aim of the challenge is to redirect your flow 🤓. The value of the FLAG depends on a nonce and it is not guaranteed to be steady across execution. 
+>Hint: Do not lose time trying to find a way to solve the challenge by bruteforcing the flag. The aim of the challenge is to redirect your flow 🤓. The value of the FLAG is random.
 
 ## Further Reading
 
